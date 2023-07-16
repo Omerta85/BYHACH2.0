@@ -1,0 +1,11 @@
+extends container
+block content
+    | Шановний #{userName}, Ви хочете змінити пароль?
+    br
+    a(href=`https://localhost:3000/reset/${actionToken}`) Перейдіть за цим посиланням
+    br
+    | І змініть свій пароль.
+    br
+    br
+    | Якщо це не Ви змінюєте пароль, то ігноруйте цей лист!
+    br
