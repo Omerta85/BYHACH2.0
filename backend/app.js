@@ -129,7 +129,7 @@ const helmet = require('helmet');
 const expressFileUpload = require('express-fileupload');
 
 require('dotenv').config();
-
+mongoose.set('strictQuery', false);
 const { PORT, DB_CONNECT_URL, ALLOWED_ORIGINS } = require('./config/variables');
 
 const app = express();
