@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react'
 import {Link, NavLink, useLocation, useNavigate} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faGlassCheers, faHeart} from '@fortawesome/free-solid-svg-icons'
+import { faHeart} from '@fortawesome/free-solid-svg-icons'
 import {Context} from "../index";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {useDispatch} from "react-redux";
@@ -45,19 +45,19 @@ export default function Navbar() {
                 </Link>
                 <ul className='d-flex center-vertical'>
                     <li className='center-vertical'>
-                        <NavLink to={'/xxx'} className='mr-20' activeClassName='isActive'>Chat</NavLink>
+                        <NavLink to={'/xxx'} className='mr-20' activeclassname='isActive'>Chat</NavLink>
                     </li>
                     <li className='center-vertical'>
-                        <NavLink to={'/map'} className='mr-20' activeClassName='isActive'>Карта</NavLink>
+                        <NavLink to={'/map'} className='mr-20' activeclassname='isActive'>Карта</NavLink>
                     </li>
                     <li className='center-vertical'>
-                        <NavLink to={'/alco/items'} className='mr-20' activeClassName='isActive'>Пропозиції</NavLink>
+                        <NavLink to={'/alco/items'} className='mr-20' activeclassname='isActive'>Пропозиції</NavLink>
                     </li>
                     <li className='center-vertical'>
-                        <NavLink to={'/pubs'} className='mr-20' activeClassName='isActive'>Заклади</NavLink>
+                        <NavLink to={'/pubs'} className='mr-20' activeclassname='isActive'>Заклади</NavLink>
                     </li>
                     <li className='center-vertical'>
-                        <NavLink to={'/news'} className='mr-20' activeClassName='isActive'>Новини</NavLink>
+                        <NavLink to={'/news'} className='mr-20' activeclassname='isActive'>Новини</NavLink>
                     </li>
                     {user || userData ? (
                         <div className='d-flex'>
@@ -100,7 +100,7 @@ export default function Navbar() {
                         </div>
                     ) : (
                         <li className='center-vertical'>
-                            <NavLink to={"/login"} className='mr-20' activeClassName='isActive'>Увійти</NavLink>
+                            <NavLink to={"/login"} className='mr-20' activeclassname='isActive'>Увійти</NavLink>
                         </li>
                     )}
                 </ul>
