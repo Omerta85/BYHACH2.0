@@ -1,0 +1,64 @@
+.w-20{
+    width: 20%
+}
+
+.w-80{
+    width: 80%;
+}
+
+.sidebar{
+    left: 0;
+}
+
+.sidebar p{
+    /*padding-top: 5px;*/
+}
+
+.sidebar span{
+    font-size: 15px;
+}
+
+.sidebar span:hover {
+    color: #FF4B2B;
+    transition: 0.3s;
+}
+
+.pubs-dashboard{
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    background: rgb(78, 149, 253);
+    position: relative;
+}
+
+.users-dashboard{
+    background: rgb(242, 178, 38);
+}
+
+.not_active-dashboard{
+    background: rgb(221, 81, 87);
+}
+
+.center-circle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.text a{
+    color: #fafafa;
+}
+
+.text p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reviewsForm{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25)
+}

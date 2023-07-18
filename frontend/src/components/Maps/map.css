@@ -1,0 +1,14 @@
+.map{
+    height: 600px;
+}
+
+.h-list{
+    height: 600px;
+    overflow: scroll;
+}
+
+.pub-map{
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+}

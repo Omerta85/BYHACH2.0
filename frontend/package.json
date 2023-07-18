@@ -1,0 +1,82 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://localhost:3000",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.3.4",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.29.4",
+    "ra-data-simple-rest": "^4.8.1",
+    "react": "^18.2.0",
+    "react-chat-engine": "^1.11.28",
+    "react-dom": "^18.2.0",
+    "react-file-base64": "^1.0.3",
+    "react-google-location": "^1.2.2",
+    "react-google-login": "^5.2.2",
+    "react-google-maps": "^9.4.5",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.8.2",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-share": "^4.4.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "stream-chat-react": "^10.7.1",
+    "sweetalert2": "^11.7.18",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "antd": "^5.2.3",
+    "firebase": "^9.17.2",
+    "google-map-react": "^2.2.0",
+    "material-ui-chip-input": "^1.1.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-geocode": "^0.2.3",
+    "react-google-autocomplete": "^2.7.3",
+    "socket.io-client": "^4.6.1",
+    "timeago": "^1.6.7"
+  }
+}

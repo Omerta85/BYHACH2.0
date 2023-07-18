@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "node_modules/.bin/nodemon app.js",
-    "serve": "node_modules/.bin/pm2 kill && pm2 start app.js --watch",
-    "front": "npm run start --prefix client",
-    "dev": "node_modules/.bin/concurrently \\\\\\\"npm run server\\\\\\\" \\\\\\\"npm run front\\\\\\\""
+    "build": "npm run build",
+    "server": "nodemon app.js",
+    "front": "cd.. && npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run front\""
   },
   "repository": {
     "type": "git",

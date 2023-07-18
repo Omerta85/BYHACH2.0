@@ -1,0 +1,9 @@
+.carousel{
+    height: 600px;
+}
+
+.carousel .carousel-item{
+    width: 500px;
+    color: #333333;
+}
+

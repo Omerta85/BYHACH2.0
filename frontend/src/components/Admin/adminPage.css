@@ -1,0 +1,231 @@
+h2 {
+    margin-top: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.j-content-around {
+    justify-content: space-around;
+}
+
+.j-content-evenly {
+    justify-content: space-evenly;
+}
+
+.j-content-between {
+    justify-content: space-between;
+}
+
+.h {
+    height: 1000px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.form-wrapper {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.form-wrapper input, .form-wrapper select {
+    min-width: 100%;
+    background-color: rgb(243, 246, 249);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.p-10 {
+    padding: 20px;
+}
+
+.btn-create {
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn-change {
+    height: 45px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn-delete {
+    background-color: rgb(236, 65, 132);
+    box-shadow: 0 0 2px 1px rgb(236, 65, 132);
+}
+
+.table-wrapper {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 60px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.w-65 {
+    width: 65%
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-100 {
+    width: 100%
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.tr-text {
+    height: auto;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.user-tr {
+    background-color: rgb(244, 245, 248);
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-table {
+    font-weight: bold;
+    color: silver;
+}
+
+.pl-15 {
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.btn-link {
+    display: block;
+    margin-left: auto;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.h-670 {
+    height: 670px;
+}
+
+.h-780 {
+    height: 780px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.animation {
+    opacity: 0;
+    animation: ani 1s forwards;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+input {
+    font-size: 0.8rem;
+    border: none;
+}
+
+input:required:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lawngreen;
+    background-size: 25px;
+}
+
+input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightcoral;
+    background-size: 25px;
+}
+
+.btn-close {
+    margin-left: auto;
+    width: 10px;
+    cursor: pointer;
+    color: silver;
+}
+
+.shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.aaa {
+    height: 100px;
+    width: 200px;
+}
+
+#news {
+    height: 100px;
+    width: 300px;
+}
