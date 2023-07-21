@@ -27,7 +27,6 @@ export default function Auth() {
 
     const handleAuthSubmit = async (e) => {
         e.preventDefault();
-
         const formData = new FormData()
         const fileField = document.querySelector('input[type="file"]')
         const nameField = document.querySelector('input[name="name"]')

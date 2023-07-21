@@ -22,7 +22,7 @@ export default function Map({setCoordinates, setBounds, pubs, location}) {
         <div className='map'>
             {/*<h3>Карта</h3>*/}
             <GoogleMapReact
-                bootstrapURLKeys={{key: 'AIzaSyAP5Q5CXmnExXciK2oL-cn9_gTGgre1whs'}}
+                bootstrapURLKeys={{key: 'AIzaSyCWKRh2JwzdT7y1Au-_ZWnrw5jyY1dejtE'}}
                 defaultCenter={coordinates}
                 center={coordinates}
                 defaultZoom={14}

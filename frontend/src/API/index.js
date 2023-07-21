@@ -39,5 +39,5 @@ export const createUser = (newUser) => API.post('/users', newUser);
 export const deleteUser = (id) => API.delete(`/users/${id}`);
 
 export const signIn = (formData) => API.post('/auth/login', formData);
-export const signUp = (formData) => API.post('/auth/register', formData);
 
+export const signUp = (formData) => API.post('/auth/register', formData);
